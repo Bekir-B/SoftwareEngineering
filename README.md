@@ -8,3 +8,5 @@ Group 1
 4. Vildan Živojević 
 
 First meeting - 05.04.2016 15:00 
+
+*will be edited later*
