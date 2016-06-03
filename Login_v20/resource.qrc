@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>iPhoneHDR-Heathrow-International.jpg</file>
+        <file>cloudsss.jpg</file>
+        <file>airplane-and-airport-tower.png</file>
+        <file>airplane-flight-ticket.png</file>
+        <file>airplanes-and-arrows-symbol.png</file>
+        <file>User-Group-icon.png</file>
+        <file>logout.png</file>
+        <file>1464970735_close_red.png</file>
+    </qresource>
+</RCC>

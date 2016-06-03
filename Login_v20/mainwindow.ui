@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>787</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>787</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Airline Reservation System</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+image: url(:/new/prefix1/cloudsss.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/new/prefix1/logout.png);</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>787</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAirport">
+    <property name="title">
+     <string>Airport</string>
+    </property>
+    <addaction name="actionFlights"/>
+    <addaction name="actionTicket_2"/>
+    <addaction name="actionCancel_Ticket"/>
+   </widget>
+   <widget class="QMenu" name="menuCustomer">
+    <property name="title">
+     <string>Customer</string>
+    </property>
+    <addaction name="actionDetails"/>
+   </widget>
+   <addaction name="menuAirport"/>
+   <addaction name="menuCustomer"/>
+  </widget>
+  <action name="actionFlights">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/prefix1/airplanes-and-arrows-symbol.png</normaloff>:/new/prefix1/airplanes-and-arrows-symbol.png</iconset>
+   </property>
+   <property name="text">
+    <string>Flights</string>
+   </property>
+  </action>
+  <action name="actionTicket_2">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/prefix1/airplane-flight-ticket.png</normaloff>:/new/prefix1/airplane-flight-ticket.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ticket</string>
+   </property>
+  </action>
+  <action name="actionDetails">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/prefix1/User-Group-icon.png</normaloff>:/new/prefix1/User-Group-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Details</string>
+   </property>
+  </action>
+  <action name="actionCancel_Ticket">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/prefix1/1464970735_close_red.png</normaloff>:/new/prefix1/1464970735_close_red.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cancel Ticket</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
